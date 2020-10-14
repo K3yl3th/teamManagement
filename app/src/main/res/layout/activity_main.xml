@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/avatar"
+        app:srcCompat="@drawable/avatar0"
+        tools:srcCompat="@drawable/avatar0" />
+
+    <TextView
+        android:id="@+id/teamManagementLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="@string/soccerTeamManagement"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/teamNameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/pleaseEnterTeamName"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/teamNameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/teamName" />
+
+    <EditText
+        android:id="@+id/teamAddressField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/pleaseEnterZipCode"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/teamAddressLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/teamAddress" />
+
+    <Button
+        android:id="@+id/openGoogleMapsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/openInGoogleMaps" />
+</LinearLayout>

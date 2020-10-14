@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Profile Manager</string>
+    <string name="avatar">Avatar</string>
+    <string name="soccerTeamManagement">Soccer Team Management</string>
+    <string name="teamName">Team Name</string>
+    <string name="teamAddress">Team Address</string>
+    <string name="openInGoogleMaps">Open in Google Maps</string>
+    <string name="empty" />
+    <string name="pleaseEnterTeamName">(Please enter a team name)</string>
+    <string name="pleaseEnterZipCode">(Please enter a ZIP Code)</string>
+</resources>
