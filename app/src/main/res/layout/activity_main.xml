@@ -6,6 +6,8 @@
     android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
     android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -15,9 +17,9 @@
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:contentDescription="@string/avatar"
+        android:onClick="onSetAvatarButton"
         app:srcCompat="@drawable/ic_logo_00"
-        tools:srcCompat="@drawable/ic_logo_00"
-        android:onClick="onSetAvatarButton"/>
+        tools:srcCompat="@drawable/ic_logo_00" />
 
     <TextView
         android:id="@+id/teamManagementLabel"
@@ -27,7 +29,7 @@
         android:layout_marginBottom="40dp"
         android:gravity="center"
         android:text="@string/soccerTeamManagement"
-        android:textSize="24sp" />
+        android:textSize="30sp" />
 
     <EditText
         android:id="@+id/teamNameField"
@@ -46,6 +48,7 @@
         android:id="@+id/teamNameLabel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:gravity="center"
         android:text="@string/teamName" />
 
