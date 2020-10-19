@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    //Open the adress in googlemaps
     public void onOpenInGoogleMaps(View view) {
         EditText teamAddressField = (EditText)findViewById(R.id.teamAddressField);
 
